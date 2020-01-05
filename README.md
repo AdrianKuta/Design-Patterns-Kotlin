@@ -1,6 +1,5 @@
 # Design Patterns in Kotlin
 ![status](https://img.shields.io/badge/status-WorkInProgress-green)
-![Build status](https://img.shields.io/github/workflow/status/AdrianKuta/Android-Project-Template/Android%20CI?style=plastic)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AdrianKuta/Android-Project-Template/blob/master/LICENSE)
 ## Creational Design Patterns
 
