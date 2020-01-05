@@ -1,6 +1,6 @@
 # Design Patterns in Kotlin
 ![status](https://img.shields.io/badge/status-WorkInProgress-green)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AdrianKuta/Android-Project-Template/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AdrianKuta/Design-Patterns-Kotlin/blob/master/LICENSE)
 ## Creational Design Patterns
 
 Creational design patterns are useful when you need to instantiate object in the best possible way for specific situation.
