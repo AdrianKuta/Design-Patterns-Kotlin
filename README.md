@@ -1,4 +1,6 @@
 # Design Patterns in Kotlin
+![status](https://img.shields.io/badge/status-WorkInProgress-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AdrianKuta/Design-Patterns-Kotlin/blob/master/LICENSE)
 
 ## Creational Design Patterns
 
@@ -59,4 +61,30 @@ class Person private constructor(
 fun Person(nickname: String, mail: String, initializer: Person.Builder.() -> Unit): Person {
     return Person.Builder(nickname, mail).apply(initializer).build()
 }
+```
+
+#### Usage in Kotlin
+
+```kotlin
+val person: Person = Person("JohnD", "test@test.com") {
+    firstName = "John"
+    city = "LA"
+}
+print(person)
+```
+
+#### Usage in Kotlin
+
+```java
+Person person = new Person.Builder("JohnD", "test@test.com")
+        .setFirstName("John")
+        .setCity("LA")
+        .build();
+
+System.out.print(person);
+```
+
+##### output:
+```kotlin
+Person(nickname=JohnD, mail=test@test.com, firstName=John, lastName=null, city=LA)
 ```
