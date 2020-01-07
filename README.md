@@ -1,5 +1,5 @@
 # Design Patterns in Kotlin
-![status](https://img.shields.io/badge/status-WorkInProgress-green)
+![status](https://img.shields.io/badge/status-WorkInProgress-red)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/AdrianKuta/Design-Patterns-Kotlin/blob/master/LICENSE)
 ## Creational Design Patterns
 
