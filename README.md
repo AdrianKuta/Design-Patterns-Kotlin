@@ -72,7 +72,7 @@ val person: Person = Person("JohnD", "test@test.com") {
 print(person)
 ```
 
-#### Usage in Kotlin
+#### Usage in Java
 
 ```java
 Person person = new Person.Builder("JohnD", "test@test.com")
